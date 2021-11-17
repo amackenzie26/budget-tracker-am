@@ -33,3 +33,7 @@ self.addEventListener("install", function (evt) {
 
     self.clients.claim();
   });
+
+  self.addEventListener('fetch', function(evt) {
+    // code to handle requests goes here
+    });
