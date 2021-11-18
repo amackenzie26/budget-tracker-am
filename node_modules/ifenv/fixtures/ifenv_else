@@ -1,0 +1,8 @@
+const title = 'You did the thing!';
+// #ifenv GOG
+const gog = window.gog;
+gog.registerAchievement(title);
+// #else
+native.registerAchievement(title);
+// #endif
+return;

@@ -1,0 +1,6 @@
+// load scene;
+loadAssets();
+
+show_message('You are running an unreleased version');
+
+start();

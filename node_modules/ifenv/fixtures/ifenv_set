@@ -1,0 +1,4 @@
+const title = 'You did the thing!';
+const steam = window.steam;
+steam.registerAchievement(title);
+return;

@@ -1,0 +1,5 @@
+doSomething();
+console.log('did something');
+
+doSomethingElse();
+console.log('did something else');

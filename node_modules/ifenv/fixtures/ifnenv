@@ -1,0 +1,8 @@
+// load scene;
+loadAssets();
+
+// #ifnenv RELEASE_NO
+show_message('You are running an unreleased version');
+// #endif
+
+start();

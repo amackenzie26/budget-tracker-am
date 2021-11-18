@@ -1,0 +1,8 @@
+//build
+// #ifnenv TOOLCHAIN
+native.tools();
+// #else
+toolchain.tools();
+// #endif
+
+printf("ready");

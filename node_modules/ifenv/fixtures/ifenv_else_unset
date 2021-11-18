@@ -1,0 +1,3 @@
+const title = 'You did the thing!';
+native.registerAchievement(title);
+return;

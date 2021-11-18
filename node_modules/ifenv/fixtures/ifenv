@@ -1,0 +1,6 @@
+const title = 'You did the thing!';
+// #ifenv STEAM
+const steam = window.steam;
+steam.registerAchievement(title);
+// #endif
+return;

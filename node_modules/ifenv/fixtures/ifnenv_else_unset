@@ -1,0 +1,4 @@
+//build
+native.tools();
+
+printf("ready");

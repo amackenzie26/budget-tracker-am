@@ -1,0 +1,9 @@
+doSomething();
+// #ifenv LOGGING
+console.log('did something');
+// #endif
+
+doSomethingElse();
+// #ifenv LOGGING
+console.log('did something else');
+// #endif
